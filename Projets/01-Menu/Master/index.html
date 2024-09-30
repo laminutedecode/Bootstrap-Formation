@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu de Restaurant</title>
+  <!-- CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!-- CSS personnalisé -->
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Restaurant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Réservations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenu de la page -->
+  <div class="container">
+    <h1 class="display-4 my-5">Menu du Restaurant</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 ">Entrées</h3>
+        <ul>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/entree-01.jpg" alt="Entrée 1">
+            Entrée 1 |  <span class="price mx-2">10 €</span>
+          </li>
+          <li class="menu-item my-4">
+            <img class="mr-3" src="./imgs/entree-02.jpg" alt="Entrée 2">
+            Entrée 2 |  <span class="price mx-2">12 €</span>
+          </li>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/entree-03.jpg" alt="Entrée 3">
+            Entrée 3 |  <span class="price mx-2">18 €</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h3 ">Plats Principaux</h3>
+        <ul>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/plat-01.jpg" alt="Plat 1">
+            Plat 1 |  <span class="price mx-2">20 €</span>
+          </li>
+          <li class="menu-item my-4">
+            <img class="mr-3" src="./imgs/plat-02.jpg" alt="Plat 2">
+            Plat 2 |  <span class="price mx-2">18 €</span>
+          </li>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/plat-03.jpg" alt="Plat 3">
+            Plat 3 |  <span class="price mx-2">22 €</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 ">Desserts</h3>
+        <ul>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/dessert-01.jpg" alt="Dessert 1">
+            Dessert 1 |  <span class="price mx-2">8 €</span>
+          </li>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/dessert-02.jpg" alt="Dessert 2">
+            Dessert 2 |  <span class="price mx-2">6 €</span>
+          </li>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/dessert-03.jpg" alt="Dessert 3">
+            Dessert 3 |  <span class="price mx-2">7 €</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h3 ">Boissons</h3>
+        <ul>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/boisson-01.jpg" alt="Boisson 1">
+            Boisson 1 |  <span class="price mx-2">4 €</span>
+          </li>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/boisson-02.jpg" alt="Boisson 2">
+            Boisson 2 |  <span class="price mx-2">3 €</span>
+          </li>
+          <li class="menu-item my-4 d-flex align-items-center">
+            <img class="mr-3" src="./imgs/boisson-03.jpg" alt="Boisson 3">
+            Boisson 3 |  <span class="price mx-2">5 €</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS de Bootstrap (optionnel, mais recommandé) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
